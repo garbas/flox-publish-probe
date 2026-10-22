@@ -2,6 +2,11 @@
   "lockfile-version": 1,
   "manifest": {
     "schema-version": "1.19.0",
+    "install": {
+      "coreutils": {
+        "pkg-path": "coreutils"
+      }
+    },
     "hook": {},
     "profile": {},
     "options": {},
@@ -13,5 +18,106 @@
       }
     }
   },
-  "packages": []
+  "packages": [
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/xi5mv6v9367ch6f5zvaryj3gdwpw25dc-coreutils-9.12.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=02c087f3fe673c9e317f206a627cb6b910336dbe",
+      "name": "coreutils-9.12",
+      "pname": "coreutils",
+      "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+      "rev_count": 1097682,
+      "rev_date": "2026-10-20T13:28:04Z",
+      "scrape_date": "2026-10-21T05:50:28.797036Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.12",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/x0h256s2j7vrvp0y92f0w5pabf5w01sj-coreutils-9.12-info",
+        "out": "/nix/store/913158w9ykwyzyhs2rgzr8rd45244qs6-coreutils-9.12"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/anmg6wb6r4fzkwblsnaaz7vk8cr4kp23-coreutils-9.12.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=02c087f3fe673c9e317f206a627cb6b910336dbe",
+      "name": "coreutils-9.12",
+      "pname": "coreutils",
+      "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+      "rev_count": 1097682,
+      "rev_date": "2026-10-20T13:28:04Z",
+      "scrape_date": "2026-10-21T06:26:17.168933Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.12",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/252jx85rlha9myg42qgz8w0n3y79b5hv-coreutils-9.12-debug",
+        "info": "/nix/store/qy8zsir0av1pxl1hphvhvqnzcq2b7ks5-coreutils-9.12-info",
+        "out": "/nix/store/m2ar7c5ylhgg8vp7dfdx9bhjfvki5xdg-coreutils-9.12"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/m7bmd2qz1zcnk4k25y5cg6wbb3y9qwcb-coreutils-9.12.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=02c087f3fe673c9e317f206a627cb6b910336dbe",
+      "name": "coreutils-9.12",
+      "pname": "coreutils",
+      "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+      "rev_count": 1097682,
+      "rev_date": "2026-10-20T13:28:04Z",
+      "scrape_date": "2026-10-21T07:05:52.621484Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.12",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/fvhgvzw9919axd99yswrm2m34gpazkmp-coreutils-9.12-debug",
+        "info": "/nix/store/2jpg29pwjk6f92a8nkw2zkf7pvg393w4-coreutils-9.12-info",
+        "out": "/nix/store/cb987zkxvsv0490753ilrvn5yk7ylgxi-coreutils-9.12"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
 }
