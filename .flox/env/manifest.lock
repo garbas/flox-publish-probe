@@ -1,0 +1,17 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "schema-version": "1.19.0",
+    "hook": {},
+    "profile": {},
+    "options": {},
+    "build": {
+      "cafix-probe": {
+        "command": "mkdir -p $out/bin\ncp probe.sh $out/bin/cafix-probe\nchmod +x $out/bin/cafix-probe\n",
+        "version": "0.0.1",
+        "description": "Throwaway TLS probe for verifying the Flox 1.19.1 CA distrust"
+      }
+    }
+  },
+  "packages": []
+}
